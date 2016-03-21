@@ -1,0 +1,16 @@
+.home {
+	background: url("../img/siding_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#content p {
+	text-shadow: 1px 1px #fff;
+	font-weight: 900;
+}
+
+hr {
+	font-weight: 900;
+	opacity: .18;
+}

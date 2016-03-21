@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+
+#footer_list {
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#footer_list li {
+	display: inline-block;
+	margin: .5% 2%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+textarea,
+select,
+option,
+optgroup,
+ul,
+li,
+div {
+	font-family: "Varela Round", sans-serif;
+}
+
+#secondary-navigation ul li a span {
+	font-family: "Varela Round", sans-serif;
+}
+
+#coupon_holder {
+	width: 400px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#coupon {
+	width: 400px;
+}
+
+.water_seepage li {
+	list-style-type: decimal;
+}
+
+#content_holder {
+	width: 100%;
+	max-width: 100%;
+}
+
+#content_holder #content {
+	float: none;
+	width: 70%;
+	margin: 20px auto;
+}
+
+#topnav .srt-menu li a {
+	background: #000 !important;
+	color: #ffff00;
+}
+
+#topnav .srt-menu li a:hover {
+	background: #ffff00 !important;
+	color: #000 !important;
+}
+
+
+#secondary-navigation ul li a {
+	background: #ffff00;
+	color: #000 !important;
+}
+
+#bottom_menu a,
+#bottom_menu a span {
+	background: #000 !important;
+	color: #ffff00 !important;
+}
+#bottom_menu a:hover,
+#bottom_menu a:hover span,
+#bottom_menu a span:hover {
+	background: #ffff00 !important;
+	color: #000 !important;
+}
+
+#bottom_menu a:hover {
+	border: 1px solid #000;
+}
+
+#banner h3 {
+	font-family: "Varela Round", sans-serif !important;
+	text-align: center;
+	font-weight: 900;
+}
+
+#content .first-header,
+#content .first-header > a {
+	color: #000 !important;
+}
+
+footer {
+	background: #000;
+}
+
+#footer_list li a {
+	color: #ffff00 !important;
+}
+
+#content .choose li {
+	color: #000;
+}
+
+.title {
+	color: #000 !important;
+	text-shadow: 2px 2px 5px #ffff00;
+}
+
+#content_div h3 {
+	color: #000 !important;
+	text-shadow: 1px 1px 3px #ffff00;
+}
+
+#badge_holder {
+	width: 75%;
+	max-width: 100%;
+}
+
+#slogan {
+	display: none;
+}
+
+@media screen and (min-width: 1009px) {
+	#slogan {
+		display: block;
+		font-size: 2.15em;
+		font-family: "Yellowtail", cursive;
+		font-weight: 900;
+		text-shadow: 4px 4px #ccc,
+									4px 2px #ffff00;
+		position: absolute;
+		right: 1.5%;
+		margin-top: -15%;
+}
+
+@media screen and (min-width: 1200px) {
+	#slogan {
+		display: block;
+		font-size: 2.75em;
+		font-family: "Yellowtail", cursive;
+		font-weight: 900;
+		text-shadow: 4px 4px #ccc,
+									4px 2px #ffff00;
+		position: absolute;
+		right: 1.5%;
+		margin-top: -12%;
+}
+
+@media screen and (min-width: 1425px) {
+	#slogan {
+		display: block;
+		font-size: 3.1em;
+		font-family: "Yellowtail", cursive;
+		font-weight: 900;
+		text-shadow: 4px 4px #ccc,
+									4px 2px #ffff00;
+		position: absolute;
+		right: 5%;
+		margin-top: -9.55%;
+}

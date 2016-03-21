@@ -1,0 +1,90 @@
+@media screen and (min-width: 1100px) {
+  #mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+  }  
+  #boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  #boxes #dialog {
+    width:450px; 
+    height:auto;
+    padding:10px;
+    background-color:#ffffff;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+  }
+  .maintext{
+  	text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    text-decoration: none;
+  }
+  body{
+    background: url('bg.jpg');
+  }
+  #lorem{
+  	font-family: "Segoe UI", sans-serif;
+  	font-size: 12pt;
+    text-align: left;
+  }
+  #popupfoot{
+  	font-family: "Segoe UI", sans-serif;
+  	font-size: 16pt;
+    padding: 10px 20px;
+  }
+  #popupfoot a{
+  	text-decoration: none;
+  }
+  .agree:hover{
+    background-color: #000;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .popupoption:hover{
+  	background-color:#D1D1D1;
+  	color: green;
+  }
+  .popupoption2:hover{
+  	
+  	color: red;
+  }
+
+
+
+  #boxes {
+    color: #0000;
+    font-weight: 900;
+  }
+
+  #dialog {
+    background: #ffff00 !important;
+  }
+
+  .close {
+    color: #000 !important;
+  }
+
+  .close:hover {
+    color: #ffff00 !important;
+  }
+
+}
+
+@media screen and (max-width: 1099px) {
+  #boxes {
+    display: none;
+  }
+}
